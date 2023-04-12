@@ -15,7 +15,7 @@ class OnBoard2 extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('assets/images/onboard1.jpg'),
+                image: AssetImage('assets/images/walk2.jpg'),
                 fit: BoxFit.cover
             )
         ),

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:trufit/UI/authpages/sign_in.dart';
+import 'package:trufit/UI/authpages/sign_up.dart';
 import 'package:trufit/UI/onboard/on_board1.dart';
 import 'package:trufit/UI/onboard/on_board2.dart';
 import 'package:trufit/UI/onboard/on_board3.dart';
@@ -24,6 +26,8 @@ class MyApp extends StatelessWidget {
         '/on_board2': (context) => OnBoard2(),
         '/on_board3': (context) => OnBoard3(),
         '/on_board4': (context) => OnBoard4(),
+        '/sign_in': (context) => const SignIn(),
+        '/sign_up': (context) => const SignUp(),
       },
     );
   }
